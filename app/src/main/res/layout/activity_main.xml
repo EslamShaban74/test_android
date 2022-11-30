@@ -10,18 +10,22 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello android!"
+        android:text="@string/hello_android"
         android:layout_marginBottom="20dp"
         android:textColor="#ff00"
+        android:onClick="press"
       />
 
     <Button
+        android:id="@+id/btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/button_back"
-        android:textColor="#fff"
-        android:text="Press" />
+        android:text="@string/press"
+        android:onClick="press"
+        android:textColor="#fff" />
 
 </LinearLayout>
