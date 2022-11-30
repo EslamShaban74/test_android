@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -23,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         if (view == tv) {
             Toast.makeText(this, "Hello text view", Toast.LENGTH_LONG).show()
         } else {
-            Toast.makeText(this, "hello button", Toast.LENGTH_LONG).show()
+          startActivity(Intent(this, calculate_age::class.java))
         }
     }
 }
