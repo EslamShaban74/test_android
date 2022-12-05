@@ -4,4 +4,10 @@
     <string name="press">Press</string>
     <string name="get_age">get age</string>
     <string name="please_enter_your_birth">Please enter your birth year !</string>
+    <string name="open_in_browser">open in browser</string>
+    <string name="open_web_view">open WebView</string>
+    <string name="enter_website_to_open">enter website to open</string>
+    <string name="go_to_camera_screen">Go to camera screen</string>
+    <string name="record">record</string>
+    <string name="rate_app">Rate App</string>
 </resources>
