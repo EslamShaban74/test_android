@@ -11,6 +11,7 @@ class CalculateAge : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.calculate_age)
+
     }
 
     fun calculateAge(view: View) {
