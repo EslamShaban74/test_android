@@ -21,10 +21,14 @@ class MainActivity : AppCompatActivity() {
         // btn.setOnClickListener {
         //  Toast.makeText(this,"hello",Toast.LENGTH_LONG).show()
         // }
-    }
 
-    fun btnClick(view: View) {
-        Toast.makeText(this, "hello", Toast.LENGTH_LONG).show()
+        tv.animate()
+            .alpha(0.5f)
+            .scaleXBy(0.5f)
+            .scaleYBy(0.5f)
+            .rotation(360f)
+            .translationY(20f)
+            .duration=2000
     }
 
     fun press(view: View) {
@@ -79,6 +83,11 @@ class MainActivity : AppCompatActivity() {
         }
 
      }
+
+    fun login(view: View) {
+        val intent = Intent(this,LoginActivity::class.java)
+        startActivity(intent)
+    }
 
 
 }

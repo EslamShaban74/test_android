@@ -10,4 +10,7 @@
     <string name="go_to_camera_screen">Go to camera screen</string>
     <string name="record">record</string>
     <string name="rate_app">Rate App</string>
+    <string name="login">login</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_password">Enter your password</string>
 </resources>
